@@ -12,11 +12,10 @@ Gem::Specification.new do |s|
   s.description = %q{Sort Tree or List Structures by Drag n Drop}
   s.email = %q{activescaffold@googlegroups.com}
 
-  s.files = Dir["{app,lib}/**/*"] + %w[MIT-LICENSE CHANGELOG README]
+  s.files = Dir["{app,lib}/**/*"] + %w[README.textile LICENSE.txt]
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.test_files = [
-    "test/recordselect_test.rb"
   ]
   s.homepage = %q{http://github.com/vhochstein/active_scaffold_sortable}
   s.summary = %q{Drag n Drop Sorting for Activescaffold}
