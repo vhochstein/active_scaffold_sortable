@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Drag n Drop Sorting for Activescaffold}
 
   s.add_development_dependency(%q<shoulda>, [">= 0"])
-  s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
+  s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
   s.add_development_dependency(%q<rcov>, [">= 0"])
   s.add_runtime_dependency(%q<active_scaffold_vho>, [">= 3.1.2"])
 end
