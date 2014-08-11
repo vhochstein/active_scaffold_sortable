@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{Sort Tree or List Structures by Drag n Drop}
   s.email = %q{activescaffold@googlegroups.com}
 
-  s.files = Dir["{app,lib}/**/*"] + %w[README.textile LICENSE.txt]
+  s.files = Dir["{app,frontends,lib}/**/*"] + %w[README.textile LICENSE.txt]
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.test_files = [
